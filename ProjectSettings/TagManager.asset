@@ -47,11 +47,14 @@ TagManager:
   - name: stone
     uniqueID: 2402875405
     locked: 0
+  - name: herbs
+    uniqueID: 1241466899
+    locked: 0
   - name: wood
     uniqueID: 1207544901
     locked: 0
-  - name: herbs
-    uniqueID: 1241466899
+  - name: tree
+    uniqueID: 34949083
     locked: 0
   - name: tiles
     uniqueID: 2097754575
