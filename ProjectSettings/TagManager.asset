@@ -41,3 +41,29 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 1965618897
+    locked: 0
+  - name: stone
+    uniqueID: 2402875405
+    locked: 0
+<<<<<<< HEAD
+  - name: wood
+    uniqueID: 1207544901
+    locked: 0
+  - name: herbs
+    uniqueID: 1241466899
+=======
+  - name: herbs
+    uniqueID: 1241466899
+    locked: 0
+  - name: wood
+    uniqueID: 1207544901
+    locked: 0
+  - name: tree
+    uniqueID: 34949083
+>>>>>>> 0d6684378c07169876a166461d950f2367637e4b
+    locked: 0
+  - name: tiles
+    uniqueID: 2097754575
+    locked: 0
