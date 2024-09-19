@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -147,7 +147,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Fire_WarriorIdleBlock_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 16
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076a8f088041cee4b8764981195cbaac
+      internalID: 1225648038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorIdleBlock_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 16
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ab82bb3809e1f4292529751d8da10d
+      internalID: -2107206243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorIdleBlock_2
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 16
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95755ac12ee306449cc570690ba35fd
+      internalID: -1871349296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorIdleBlock_3
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 16
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8788695a3139a94285f8ef5c828fcdf
+      internalID: 1413468190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorIdleBlock_4
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 16
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13141bebc5ef91f458bc42e24a5e2662
+      internalID: -599433300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorIdleBlock_5
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 16
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1722ce1f8695c624e9e38f0c61826630
+      internalID: -1550103659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorIdleBlock_6
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 16
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665dca418816bd745aec6895440ba062
+      internalID: -547754101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorIdleBlock_7
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 16
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b75a898b4c012488cc0cfbd09d615c
+      internalID: -1405000056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +326,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fire_WarriorIdleBlock_0: 1225648038
+      Fire_WarriorIdleBlock_1: -2107206243
+      Fire_WarriorIdleBlock_2: -1871349296
+      Fire_WarriorIdleBlock_3: 1413468190
+      Fire_WarriorIdleBlock_4: -599433300
+      Fire_WarriorIdleBlock_5: -1550103659
+      Fire_WarriorIdleBlock_6: -547754101
+      Fire_WarriorIdleBlock_7: -1405000056
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

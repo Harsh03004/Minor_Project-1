@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -147,7 +147,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Fire_WarriorDeath_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 16
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a11e5c5e4fa48044bce01e286628ae4
+      internalID: 1405286181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorDeath_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 16
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86facaf89fb0bde4fb09b20d0a560aa4
+      internalID: -178599814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorDeath_2
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 16
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70628138028870f42b101d9d0ace91a2
+      internalID: 1544713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorDeath_3
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 16
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05040560058bcd144b52246559c4123f
+      internalID: -1729771279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorDeath_4
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 16
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3f2d3e1b64078419c517464f8db7b6
+      internalID: 2049543718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorDeath_5
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 16
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaf0c8681b19244091160ff3beb72de
+      internalID: -1394533463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorDeath_6
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 16
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5311609d28237644e8172bbea9050087
+      internalID: 885836127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorDeath_7
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 16
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0420c8f0daef6478a526d3e2b61d4f
+      internalID: 962320144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorDeath_8
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 16
+        width: 54
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a686a6181a5b0b6489c8cd86b68d22fa
+      internalID: -634558952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorDeath_9
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 16
+        width: 54
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9418e832185c184c998590dd617ec95
+      internalID: 39853744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorDeath_10
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 16
+        width: 54
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b678196d59f18041956c86c259872fe
+      internalID: 260608426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +389,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fire_WarriorDeath_0: 1405286181
+      Fire_WarriorDeath_1: -178599814
+      Fire_WarriorDeath_10: 260608426
+      Fire_WarriorDeath_2: 1544713
+      Fire_WarriorDeath_3: -1729771279
+      Fire_WarriorDeath_4: 2049543718
+      Fire_WarriorDeath_5: -1394533463
+      Fire_WarriorDeath_6: 885836127
+      Fire_WarriorDeath_7: 962320144
+      Fire_WarriorDeath_8: -634558952
+      Fire_WarriorDeath_9: 39853744
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
