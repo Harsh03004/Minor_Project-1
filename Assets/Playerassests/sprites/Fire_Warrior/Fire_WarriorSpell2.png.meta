@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -147,7 +147,1267 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_0
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 59
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cca908cdeb937e4085773b0c3b0fda1
+      internalID: -453067767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_1
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 60
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a7c32b15c0a6940ac823ce06109566
+      internalID: -724548113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_2
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 65
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234386e5343b7094b9b3acb1b7bed462
+      internalID: 272237101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_3
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 68
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec013d888377e964aac5381514812027
+      internalID: 241234669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_4
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 28
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c930bed368867f2418b0d33e9a33d0d5
+      internalID: 1808007342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_5
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 27
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e373c2255b32a8045b2c2712c46cd97d
+      internalID: 22256918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_6
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 64
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210fd3a0ec730f74d9f84db478b62e27
+      internalID: 404645554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_7
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 28
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c8cd3b623d17e40aeeec54e5b1d0d6
+      internalID: -1657312465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_8
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 27
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbba06dd64b0aec449f0cfe1bd51be33
+      internalID: -722866950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_9
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 64
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf565b0d1f7e964fb1692c22d253109
+      internalID: -1505865883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 16
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c48d6f08afbcf4d9d220beed6af121
+      internalID: -1612592088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_11
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 16
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8554e9c9f84111645866efb15c22ce14
+      internalID: -1862549261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_12
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 26
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529b2f84ecb54e34ca25762d7599ff54
+      internalID: -456261036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_13
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 28
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7af61ab23eb5c4e89aebcb4bbb6421
+      internalID: -839591648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_14
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 26
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978d66cb40aa94f4ab2981423e599610
+      internalID: -2045588920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_15
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 28
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870d116009f30a44eabb89ff6f8fd554
+      internalID: 1133182072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_16
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 53
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c529ecb260ceb428a42c5acb94a32b
+      internalID: -1029487986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_17
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 56
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1956b9d1ee4a1344fa260fc987c1661c
+      internalID: -459875552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_18
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 48
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d12163b1d629d84baadb66d758f322c
+      internalID: -597889197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_19
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 60
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af00af8581175ae40a82cbdc8158a270
+      internalID: 32976130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_20
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 56
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a0fc83d46f6d1488c872bed189420f
+      internalID: -1222521666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_21
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 16
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4df19008c3d9b94b9e3ac30d968ae0d
+      internalID: -271031794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_22
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 16
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758b1f76e5da2aa43b233cf4b216a463
+      internalID: -55419599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_23
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 28
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f80a63a8a38bf46a8a9b25f66d7043
+      internalID: 1599864438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_24
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 16
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c781eb2537aa7246b7ab48720a0b9cc
+      internalID: -37665432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_25
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 16
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13825bf8c6e37054dade3d0ee783f6d4
+      internalID: 2083510734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_26
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 16
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86589bc59b6e9ae4ab277ef306a441ea
+      internalID: 737010619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_27
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 16
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8a47ec9763ade41bac098ff678b9f6
+      internalID: 618052023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_28
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 16
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0661113346d69db40a87e695ee64a385
+      internalID: 1408113898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_29
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 16
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9f0e751bbffd4468d15a0ea3e85aef
+      internalID: -104816440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_30
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 16
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee00c62d5d8a624681e1c9984dc0f46
+      internalID: -1692245292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_31
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 16
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc787eee56f20cc4796f2b9f13dd8424
+      internalID: -578893824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_32
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 16
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c2cdfab6ae45f429398922ff6c0ad8
+      internalID: 2008815954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_33
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 28
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913e094e18a292e4d93f761c23bd47fb
+      internalID: 1662840679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_34
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 16
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45145c43038a2fb46bba266ec99986c4
+      internalID: -2135221834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_35
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 33
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a113cb2bcaafa40a183d6e597cc007
+      internalID: -2132696489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_36
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 50
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6e841867e513c478cdc099839d39fe
+      internalID: 377335340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_37
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8de5d120064049418456ffc210d8a08
+      internalID: 398216859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_38
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 16
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd95642b9b3f854bb9c09bb6f2ab6f6
+      internalID: 157685971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_39
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 52
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e608121d575c9448fde7099468cdf8
+      internalID: 1204839559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_40
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 51
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d72be26d86d7d42972ad0c1e6c3c2b
+      internalID: -1711765477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_41
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 53
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faae7b1c9bc2c3b4cb69a811dce66645
+      internalID: -312285157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_42
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 16
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0c76d4efe6a7848a94217fae047c13
+      internalID: -1322668201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_43
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 48
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141bef21ec51621418622031b0089b67
+      internalID: 82489573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_44
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 45
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9598e3e518ade0649ba0b818a7176089
+      internalID: 667680339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_45
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 42
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a185b8c20ecf5e4883dab540308691b
+      internalID: -1803346348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_46
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 39
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9caaf86f2793c7740a8ae6e5e4acf16c
+      internalID: 1838001457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_47
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 46
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe167830d5edb4c49b5b8cff784a58c7
+      internalID: -1223098668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_48
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 36
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70def195429a3e54a9cda4febcda586e
+      internalID: 34651038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_49
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 42
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52d1ea775018f345a714922dec5e762
+      internalID: -240024528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_50
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 42
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e6f3c4082a1904cb6af68bf894f3a7
+      internalID: 920268504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_51
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 36
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb62b759e8430df4199ec8c647d09469
+      internalID: -408515077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_52
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 36
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f54eec31fd0d8d4aa6ae0a82394b90d
+      internalID: 1935032781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_53
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 36
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b144ad8101e17f41b8c332c80eb4a23
+      internalID: 1025310738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_54
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 37
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d43c1495d3f994388f3ee281e4c947
+      internalID: 2051976534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_55
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 30
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7abd764cfa469348b2b55758c30bfc0
+      internalID: 1280954189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_56
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 33
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e13fc759f25e544aa23ed0bd9ea4aba
+      internalID: 113256794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_57
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f3655fd52337a439fc22fff4d8f66e
+      internalID: 547410493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_58
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5904ba9738af94faaa112d1a4ca4ea
+      internalID: 1082297942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_WarriorSpell2_59
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 28
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261e41d535a3df44997c4211c063fc71
+      internalID: -1187054064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +1418,67 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fire_WarriorSpell2_0: -453067767
+      Fire_WarriorSpell2_1: -724548113
+      Fire_WarriorSpell2_10: -1612592088
+      Fire_WarriorSpell2_11: -1862549261
+      Fire_WarriorSpell2_12: -456261036
+      Fire_WarriorSpell2_13: -839591648
+      Fire_WarriorSpell2_14: -2045588920
+      Fire_WarriorSpell2_15: 1133182072
+      Fire_WarriorSpell2_16: -1029487986
+      Fire_WarriorSpell2_17: -459875552
+      Fire_WarriorSpell2_18: -597889197
+      Fire_WarriorSpell2_19: 32976130
+      Fire_WarriorSpell2_2: 272237101
+      Fire_WarriorSpell2_20: -1222521666
+      Fire_WarriorSpell2_21: -271031794
+      Fire_WarriorSpell2_22: -55419599
+      Fire_WarriorSpell2_23: 1599864438
+      Fire_WarriorSpell2_24: -37665432
+      Fire_WarriorSpell2_25: 2083510734
+      Fire_WarriorSpell2_26: 737010619
+      Fire_WarriorSpell2_27: 618052023
+      Fire_WarriorSpell2_28: 1408113898
+      Fire_WarriorSpell2_29: -104816440
+      Fire_WarriorSpell2_3: 241234669
+      Fire_WarriorSpell2_30: -1692245292
+      Fire_WarriorSpell2_31: -578893824
+      Fire_WarriorSpell2_32: 2008815954
+      Fire_WarriorSpell2_33: 1662840679
+      Fire_WarriorSpell2_34: -2135221834
+      Fire_WarriorSpell2_35: -2132696489
+      Fire_WarriorSpell2_36: 377335340
+      Fire_WarriorSpell2_37: 398216859
+      Fire_WarriorSpell2_38: 157685971
+      Fire_WarriorSpell2_39: 1204839559
+      Fire_WarriorSpell2_4: 1808007342
+      Fire_WarriorSpell2_40: -1711765477
+      Fire_WarriorSpell2_41: -312285157
+      Fire_WarriorSpell2_42: -1322668201
+      Fire_WarriorSpell2_43: 82489573
+      Fire_WarriorSpell2_44: 667680339
+      Fire_WarriorSpell2_45: -1803346348
+      Fire_WarriorSpell2_46: 1838001457
+      Fire_WarriorSpell2_47: -1223098668
+      Fire_WarriorSpell2_48: 34651038
+      Fire_WarriorSpell2_49: -240024528
+      Fire_WarriorSpell2_5: 22256918
+      Fire_WarriorSpell2_50: 920268504
+      Fire_WarriorSpell2_51: -408515077
+      Fire_WarriorSpell2_52: 1935032781
+      Fire_WarriorSpell2_53: 1025310738
+      Fire_WarriorSpell2_54: 2051976534
+      Fire_WarriorSpell2_55: 1280954189
+      Fire_WarriorSpell2_56: 113256794
+      Fire_WarriorSpell2_57: 547410493
+      Fire_WarriorSpell2_58: 1082297942
+      Fire_WarriorSpell2_59: -1187054064
+      Fire_WarriorSpell2_6: 404645554
+      Fire_WarriorSpell2_7: -1657312465
+      Fire_WarriorSpell2_8: -722866950
+      Fire_WarriorSpell2_9: -1505865883
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
