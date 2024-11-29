@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -160,7 +160,616 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Magic trap - Level 3_0
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 0
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5364f05b86c802e4abb6492b379ebc1d
+      internalID: -1009330112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_1
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 0
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55156fbdcd839104f8fee24460833b03
+      internalID: -1040781208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_2
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 0
+        width: 149
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd326d1261af2249952734c008ac37a
+      internalID: -318556434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_3
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 0
+        width: 145
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f0730bd909cdf4c85af6d8aa144e97
+      internalID: -217045403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_5
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 0
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a271d9d64da69949916a8a4a0cd73e1
+      internalID: -336009279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_7
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 0
+        width: 57
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2784aecb38d3b2428e1de1baae57ee3
+      internalID: -1840743247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_8
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 0
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6243bcbc2c0aec4fa46637417e833f5
+      internalID: -1076241208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_9
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 0
+        width: 94
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2231ea849b4ec4bab001a7d7a9edc7
+      internalID: 1980663323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_12
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 0
+        width: 93
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93895d3d89f45844d9f437658e7cc022
+      internalID: -227183588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_17
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 0
+        width: 83
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438b652305e9aa8498a004efd0589211
+      internalID: -1225687932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_20
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 0
+        width: 121
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24de024c9af651c4887b28f9492742e4
+      internalID: 100558023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_31
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 0
+        width: 113
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ab4df149b5d5e4ab933eec965693e4
+      internalID: -2040795937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_34
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 0
+        width: 115
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c713b4eaf1961014899102d380104bfb
+      internalID: -1984200469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_48
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 0
+        width: 141
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2699171fdae7a9840ae9ef23016c26d0
+      internalID: 1816263775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_49
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 0
+        width: 142
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5346bb4161e1649817d206ec94832e
+      internalID: -1441199912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_56
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 0
+        width: 139
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15efaa548cf9d504abc06aeb35cc6ada
+      internalID: 1506033852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_61
+      rect:
+        serializedVersion: 2
+        x: 3028
+        y: 0
+        width: 139
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4ef3117d86e6e4fa0174eadbd6b57c
+      internalID: 952573121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_66
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 0
+        width: 144
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebd5bfccd7ff854c8ec71a5f8a32485
+      internalID: 1341797968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_71
+      rect:
+        serializedVersion: 2
+        x: 3311
+        y: 0
+        width: 142
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce953299847b9c4d824e8ebcaaba45b
+      internalID: 1034312333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_78
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 0
+        width: 152
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967d761e010d1e64d85d4a42757ba360
+      internalID: -715492661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_79
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc761f0b010560d45955915e425b5268
+      internalID: -746203436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_80
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb95635e9c7e302488220c27ab0ea45e
+      internalID: 1488964501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_81
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 0
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b197a7b3d7ab7c84a8713a0e7f72d0fe
+      internalID: -660267257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_84
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 0
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2147ba8479d97104e93c9b7babb44498
+      internalID: 141479329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_85
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 0
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69460259c4314b242b957db179fdd127
+      internalID: -1696432721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_86
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 0
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a144d5cb1ea0f4c8604b3297da1967
+      internalID: -1161074645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_98
+      rect:
+        serializedVersion: 2
+        x: 3799
+        y: 0
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731ba5faeecb81048be59b066352b5ef
+      internalID: -433423309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_99
+      rect:
+        serializedVersion: 2
+        x: 3942
+        y: 0
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0213508a066c7164fbb8b871f7eb62d3
+      internalID: 563890316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3_100
+      rect:
+        serializedVersion: 2
+        x: 4086
+        y: 0
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866a68f239d6d9042808ee517915b79d
+      internalID: -666811282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -171,7 +780,108 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Magic trap - Level 3_0: -1009330112
+      Magic trap - Level 3_1: -1040781208
+      Magic trap - Level 3_10: 815053750
+      Magic trap - Level 3_100: -666811282
+      Magic trap - Level 3_11: 1322211382
+      Magic trap - Level 3_12: -227183588
+      Magic trap - Level 3_13: 955050559
+      Magic trap - Level 3_14: -341720722
+      Magic trap - Level 3_15: 1626043435
+      Magic trap - Level 3_16: 1073378223
+      Magic trap - Level 3_17: -1225687932
+      Magic trap - Level 3_18: 1808340819
+      Magic trap - Level 3_19: -1676372719
+      Magic trap - Level 3_2: -318556434
+      Magic trap - Level 3_20: 100558023
+      Magic trap - Level 3_21: 1321591231
+      Magic trap - Level 3_22: 443775914
+      Magic trap - Level 3_23: 1493865316
+      Magic trap - Level 3_24: 954166499
+      Magic trap - Level 3_25: -1882466203
+      Magic trap - Level 3_26: -1799928887
+      Magic trap - Level 3_27: -1347210121
+      Magic trap - Level 3_28: -749804083
+      Magic trap - Level 3_29: 860412000
+      Magic trap - Level 3_3: -217045403
+      Magic trap - Level 3_30: -1306408789
+      Magic trap - Level 3_31: -2040795937
+      Magic trap - Level 3_32: 2020606682
+      Magic trap - Level 3_33: 539494572
+      Magic trap - Level 3_34: -1984200469
+      Magic trap - Level 3_35: 225524526
+      Magic trap - Level 3_36: 1664398822
+      Magic trap - Level 3_37: -991492345
+      Magic trap - Level 3_38: -1526591837
+      Magic trap - Level 3_39: 273598202
+      Magic trap - Level 3_4: -1387230511
+      Magic trap - Level 3_40: -1080814296
+      Magic trap - Level 3_41: -453568920
+      Magic trap - Level 3_42: -1282469715
+      Magic trap - Level 3_43: 1379456722
+      Magic trap - Level 3_44: -2058039148
+      Magic trap - Level 3_45: -1649609444
+      Magic trap - Level 3_46: 410682707
+      Magic trap - Level 3_47: 525164016
+      Magic trap - Level 3_48: 1816263775
+      Magic trap - Level 3_49: -1441199912
+      Magic trap - Level 3_5: -336009279
+      Magic trap - Level 3_50: -658520146
+      Magic trap - Level 3_51: 1885383234
+      Magic trap - Level 3_52: 537547828
+      Magic trap - Level 3_53: 509989862
+      Magic trap - Level 3_54: -2015412921
+      Magic trap - Level 3_55: -2011506194
+      Magic trap - Level 3_56: 1506033852
+      Magic trap - Level 3_57: -795511182
+      Magic trap - Level 3_58: -1813175001
+      Magic trap - Level 3_59: -80589190
+      Magic trap - Level 3_6: 781580388
+      Magic trap - Level 3_60: 1336371394
+      Magic trap - Level 3_61: 952573121
+      Magic trap - Level 3_62: -1908024557
+      Magic trap - Level 3_63: -2007736475
+      Magic trap - Level 3_64: -1215752416
+      Magic trap - Level 3_65: -2065290832
+      Magic trap - Level 3_66: 1341797968
+      Magic trap - Level 3_67: -1122037631
+      Magic trap - Level 3_68: 1594089608
+      Magic trap - Level 3_69: 1517706560
+      Magic trap - Level 3_7: -1840743247
+      Magic trap - Level 3_70: -1237021565
+      Magic trap - Level 3_71: 1034312333
+      Magic trap - Level 3_72: 202447503
+      Magic trap - Level 3_73: -1807012461
+      Magic trap - Level 3_74: 1320339284
+      Magic trap - Level 3_75: 2006345038
+      Magic trap - Level 3_76: -1551953636
+      Magic trap - Level 3_77: -10282485
+      Magic trap - Level 3_78: -715492661
+      Magic trap - Level 3_79: -746203436
+      Magic trap - Level 3_8: -1076241208
+      Magic trap - Level 3_80: 1488964501
+      Magic trap - Level 3_81: -660267257
+      Magic trap - Level 3_82: -877362758
+      Magic trap - Level 3_83: -2027057059
+      Magic trap - Level 3_84: 141479329
+      Magic trap - Level 3_85: -1696432721
+      Magic trap - Level 3_86: -1161074645
+      Magic trap - Level 3_87: -1892646647
+      Magic trap - Level 3_88: -1846045862
+      Magic trap - Level 3_89: 57932363
+      Magic trap - Level 3_9: 1980663323
+      Magic trap - Level 3_90: 576850592
+      Magic trap - Level 3_91: 1130146158
+      Magic trap - Level 3_92: 1171228458
+      Magic trap - Level 3_93: -638199167
+      Magic trap - Level 3_94: -1706985212
+      Magic trap - Level 3_95: 892674948
+      Magic trap - Level 3_96: -551765926
+      Magic trap - Level 3_97: -1074479002
+      Magic trap - Level 3_98: -433423309
+      Magic trap - Level 3_99: 563890316
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

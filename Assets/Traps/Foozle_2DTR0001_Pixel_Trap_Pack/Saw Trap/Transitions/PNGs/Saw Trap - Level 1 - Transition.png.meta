@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -160,7 +160,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Saw Trap - Level 1 - Transition_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 51
+        width: 42
+        height: 13
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691edc1838b9b7a4899827bbc5c86ec0
+      internalID: -1089517263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saw Trap - Level 1 - Transition_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 46
+        width: 46
+        height: 18
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a304803f454546e4d8534a7709987163
+      internalID: 1762376343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saw Trap - Level 1 - Transition_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 45
+        width: 45
+        height: 19
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1021166d3d7b27847bd6a8d05a762fa2
+      internalID: -1631987560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saw Trap - Level 1 - Transition_5
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 42
+        width: 41
+        height: 22
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c8654fe252e6e4ca6fbb78243d575d
+      internalID: -2076533037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saw Trap - Level 1 - Transition_6
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 44
+        width: 37
+        height: 20
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb0237211c0cc545b2b6dd2f9985487
+      internalID: 464422486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saw Trap - Level 1 - Transition_7
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 44
+        width: 27
+        height: 20
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb10c3cd533b59a4d89f97a8183f526a
+      internalID: 1379073203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saw Trap - Level 1 - Transition_8
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 35
+        width: 28
+        height: 29
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a78232b769a3ea4f9c8dd21bbfa395e
+      internalID: -671209713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saw Trap - Level 1 - Transition_9
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 34
+        width: 24
+        height: 30
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c425812a188034ab95b6cad723e545
+      internalID: -2033905685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saw Trap - Level 1 - Transition_10
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 31
+        width: 28
+        height: 33
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f40d9b5fd44ba45a416e6422eac149
+      internalID: -306678668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saw Trap - Level 1 - Transition_11
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 34
+        width: 24
+        height: 30
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b17d212a9bc834fb564b2f751911ac
+      internalID: -1532698181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -171,7 +381,26 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Saw Trap - Level 1 - Transition_0: -1089517263
+      Saw Trap - Level 1 - Transition_1: 134489437
+      Saw Trap - Level 1 - Transition_10: -306678668
+      Saw Trap - Level 1 - Transition_11: -1532698181
+      Saw Trap - Level 1 - Transition_12: -125848713
+      Saw Trap - Level 1 - Transition_13: 234668200
+      Saw Trap - Level 1 - Transition_14: 941044999
+      Saw Trap - Level 1 - Transition_15: -407874797
+      Saw Trap - Level 1 - Transition_16: 985985540
+      Saw Trap - Level 1 - Transition_17: -1286319058
+      Saw Trap - Level 1 - Transition_18: -1390267955
+      Saw Trap - Level 1 - Transition_2: 1762376343
+      Saw Trap - Level 1 - Transition_3: -1631987560
+      Saw Trap - Level 1 - Transition_4: 825257438
+      Saw Trap - Level 1 - Transition_5: -2076533037
+      Saw Trap - Level 1 - Transition_6: 464422486
+      Saw Trap - Level 1 - Transition_7: 1379073203
+      Saw Trap - Level 1 - Transition_8: -671209713
+      Saw Trap - Level 1 - Transition_9: -2033905685
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

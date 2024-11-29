@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System;
 using Unity.VisualScripting;
+using System.Linq;
 
 public class ItemSlot : MonoBehaviour, IPointerClickHandler
 {
@@ -34,6 +35,8 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
     public Image itemDescriptionImage;
     public TMP_Text ItemDescriptionNameText;
     public TMP_Text ItemDescriptionText;
+
+    private bool isBeingUsed = false; // Prevent double execution
 
     [SerializeField]
     private int maxNumberOfItems;
@@ -80,85 +83,88 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if(eventData.button==PointerEventData.InputButton.Left)
+        if (eventData.button == PointerEventData.InputButton.Left)
         {
-            OnLeftClick(GetInventoryManager());
-        }
-        if (eventData.button == PointerEventData.InputButton.Right)
-        {
-            OnRightClick();
+            Debug.Log($"Item clicked: {itemName}");
+            OnLeftClick(inventoryManager);
         }
     }
 
-    public void OnRightClick()
-    {
-       //Dropping the item
-       GameObject itemToDrop =new GameObject(itemName);
-        Item newItem=itemToDrop.AddComponent<Item>();
-        newItem.name = itemName;
-        newItem.quantity = 1;
-        newItem.sprite= itemSprite;
-        newItem.itemDescription= itemDescription;
-
-        SpriteRenderer sr=itemToDrop.AddComponent<SpriteRenderer>();
-        sr.sprite = itemSprite;
-        sr.sortingOrder = 5;
-        sr.sortingLayerName = "Ground";
-
-        itemToDrop.AddComponent<BoxCollider2D>();
-
-        itemToDrop.transform.position=GameObject.FindWithTag("Player").transform.position + new Vector3(1.0f,0,0);
-
-
-        //remove the item from the inventory
-        this.quantity -= 1;
-        quantityText.text = this.quantity.ToString();
-        if (this.quantity <= 0)
-        {
-            EmptySlot();
-        }
-    }
-
-    public InventoryManager GetInventoryManager()
+public InventoryManager GetInventoryManager()
     {
         return inventoryManager;
     }
 
     public void OnLeftClick(InventoryManager inventoryManager)
     {
-        if (thisItemSelected)
-        {
-            bool usable= inventoryManager.UseItem(itemName);
-            if (usable)
-            {
-                this.quantity -= 1;
-                quantityText.text = this.quantity.ToString();
-                if (this.quantity <= 0)
-                {
-                    EmptySlot();
-                }
-            }
-        }
-        else
+        if (!thisItemSelected) // Only process the click if the item is not already selected
         {
             inventoryManager.DeselectAllSlots();
+
             selectedShader.SetActive(true);
             thisItemSelected = true;
+
             ItemDescriptionNameText.text = itemName;
             ItemDescriptionText.text = itemDescription;
             itemDescriptionImage.sprite = itemSprite;
         }
+        else
+        {
+            // If already selected, use the item
+            UseItem(); // This should happen only once
+        }
     }
 
-    private void EmptySlot()
+
+    public void EmptySlot()
     {
-        //Clearing the slot
+        // Clear the UI
         quantityText.enabled = false;
         itemImage.sprite = emptySprite;
-        
-        //Clearing the item description
-        ItemDescriptionNameText.text = "";
-        ItemDescriptionText.text = "";
-        itemDescriptionImage.sprite = emptySprite;
+        itemImage.enabled = false;
+
+        // Reset the slot's data
+        itemName = null;
+        quantity = 0;
+        isFull = false;
+        itemDescription = null;
+
+        // Notify the InventoryManager to remove the slot
+        inventoryManager.RemoveSlot(this);
     }
+
+
+
+
+    public bool UseItem()
+    {
+        if (isBeingUsed) return false; // Skip if already processing
+        isBeingUsed = true;
+
+        if (thisItemSelected)
+        {
+            ItemSO correspondingItemSO = inventoryManager.itemSOs.FirstOrDefault(item => item.itemName == itemName);
+            if (correspondingItemSO != null)
+            {
+                bool usable = correspondingItemSO.UseItem();
+                if (usable)
+                {
+                    quantity -= 1;
+                    quantityText.text = quantity > 0 ? quantity.ToString() : "";
+
+                    if (quantity <= 0)
+                    {
+                        EmptySlot();
+                    }
+                    isBeingUsed = false; // Reset flag
+                    return true;
+                }
+            }
+        }
+
+        isBeingUsed = false; // Reset flag
+        return false;
+    }
+
+
 }

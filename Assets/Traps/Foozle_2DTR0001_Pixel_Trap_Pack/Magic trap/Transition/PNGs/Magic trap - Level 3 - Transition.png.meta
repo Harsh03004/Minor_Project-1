@@ -3,7 +3,7 @@ guid: 0ba4208a897caa44aa8ca84175ab3936
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -160,7 +160,763 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_0
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 0
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4714e873106194697a9ca5f528b7c6
+      internalID: 367235418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_1
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 21
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c13b6fee8b1984c9e9c61173f09a02
+      internalID: 883379961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_2
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 24
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d7133c9cf03254ba2843e27214dba1
+      internalID: 497471461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_3
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 0
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91e9af13fcccfa41a8c6f0c40a0c698
+      internalID: -1024852712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_4
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 5
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fc541fb68e46f47bffaaec6dcbc6fa
+      internalID: -1368286888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_5
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 4
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8e846bd12efd34e9bcf1c69bdeb908
+      internalID: 1515826274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_6
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 5
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9b549072a9f124fbd570014091ff68
+      internalID: -590378246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_7
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 0
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5d352b2d2e37e4899b191059b4aa04
+      internalID: 1035405845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_8
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 4
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa35e34e49d1b754f9c6bf08d2b615d6
+      internalID: 431146153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_9
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 15
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bf516c5ac77594bab2684373e298a7
+      internalID: 424296811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_10
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02bdb617891ce049887dbd7398534e5
+      internalID: 1078180800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_11
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f32e77acbcaf0743a035fa06abc8ab8
+      internalID: 1669302165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_12
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 0
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392b244ad3c7da74fa3221d62d9a27d5
+      internalID: 1979713883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_13
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 0
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bcf97a7b5b67147a1436581354405e
+      internalID: 1809161418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_14
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 0
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537e722e44a4dba41bc626e8d0ebcfc5
+      internalID: -1518761011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_15
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 0
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5604039ec5fca854eb989bdffb0a1f03
+      internalID: 1820050564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_16
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 0
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e512027d6b0ffde4bb277d7eb7eae28f
+      internalID: 942702708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_17
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 1
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3beff6884146a444d8f8be02fa00b4bf
+      internalID: 1585521677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_18
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46af161db0f6c5942a658759e497d12a
+      internalID: -1694963917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_19
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e0fbdfcdbb2c74db487ed01a4faa47
+      internalID: -20455138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_20
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 0
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434af2d7feea76c44ad7c46fa225122c
+      internalID: 445950277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_21
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837445b2cb495d843b954a3b3b7edec6
+      internalID: 2117846088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_22
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132039469b053fd4c88297f03e0820c8
+      internalID: -1472656773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_23
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 1
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662e3da4d33599444a5a21f0ca6d7438
+      internalID: -1738659173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_24
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 2
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b96af668278f649aebded16d42a074
+      internalID: 1379602020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_25
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 1
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e850915e8edb8e4aa1a1aa2d20fbb19
+      internalID: -1083805442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_26
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 1
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59be26465900a3c4fa81671f90c16dac
+      internalID: -1630228522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_27
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 6
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081d2d080e9a8bf4898b08506735d37f
+      internalID: 87262062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_28
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 1
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c729a6ac1a830e14cbb20af1e170020d
+      internalID: -1940448465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_29
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 1
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1101f39c31840ec4fae6e74ad88688cc
+      internalID: 1267850888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_30
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a4da9b84c490640b9b03ae0c9b5b28
+      internalID: -71268873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_31
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ccda947cdbe084baa864958bd599d2
+      internalID: -1915989257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_32
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 1
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf1eed7682f96c49a162dab58645a70
+      internalID: 634950615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_33
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a946bb8a7df725847bd2ec51e391505f
+      internalID: -325876032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_34
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 1
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f9ea0c3058a404c8e1975ade4d2b4e
+      internalID: -2071588311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic trap - Level 3 - Transition_35
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5e67664297a2b40a1544fab8d0d869
+      internalID: 1357339112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -171,7 +927,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Magic trap - Level 3 - Transition_0: 367235418
+      Magic trap - Level 3 - Transition_1: 883379961
+      Magic trap - Level 3 - Transition_10: 1078180800
+      Magic trap - Level 3 - Transition_11: 1669302165
+      Magic trap - Level 3 - Transition_12: 1979713883
+      Magic trap - Level 3 - Transition_13: 1809161418
+      Magic trap - Level 3 - Transition_14: -1518761011
+      Magic trap - Level 3 - Transition_15: 1820050564
+      Magic trap - Level 3 - Transition_16: 942702708
+      Magic trap - Level 3 - Transition_17: 1585521677
+      Magic trap - Level 3 - Transition_18: -1694963917
+      Magic trap - Level 3 - Transition_19: -20455138
+      Magic trap - Level 3 - Transition_2: 497471461
+      Magic trap - Level 3 - Transition_20: 445950277
+      Magic trap - Level 3 - Transition_21: 2117846088
+      Magic trap - Level 3 - Transition_22: -1472656773
+      Magic trap - Level 3 - Transition_23: -1738659173
+      Magic trap - Level 3 - Transition_24: 1379602020
+      Magic trap - Level 3 - Transition_25: -1083805442
+      Magic trap - Level 3 - Transition_26: -1630228522
+      Magic trap - Level 3 - Transition_27: 87262062
+      Magic trap - Level 3 - Transition_28: -1940448465
+      Magic trap - Level 3 - Transition_29: 1267850888
+      Magic trap - Level 3 - Transition_3: -1024852712
+      Magic trap - Level 3 - Transition_30: -71268873
+      Magic trap - Level 3 - Transition_31: -1915989257
+      Magic trap - Level 3 - Transition_32: 634950615
+      Magic trap - Level 3 - Transition_33: -325876032
+      Magic trap - Level 3 - Transition_34: -2071588311
+      Magic trap - Level 3 - Transition_35: 1357339112
+      Magic trap - Level 3 - Transition_4: -1368286888
+      Magic trap - Level 3 - Transition_5: 1515826274
+      Magic trap - Level 3 - Transition_6: -590378246
+      Magic trap - Level 3 - Transition_7: 1035405845
+      Magic trap - Level 3 - Transition_8: 431146153
+      Magic trap - Level 3 - Transition_9: 424296811
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

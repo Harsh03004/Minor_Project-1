@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - enemy
+  - Ground
+  - LevelSection
+  - SpawnPoint
+  - Rooms
   layers:
   - Default
   - TransparentFX
@@ -60,6 +64,18 @@ TagManager:
   - name: tiles
     uniqueID: 2097754575
     locked: 0
+  - name: trap
+    uniqueID: 3162336631
+    locked: 0
   - name: player
     uniqueID: 1822936143
+    locked: 0
+  - name: frontobjects
+    uniqueID: 1419984499
+    locked: 0
+  - name: SKILL TREE
+    uniqueID: 466227973
+    locked: 0
+  - name: SKILL TREE 2
+    uniqueID: 1193959161
     locked: 0

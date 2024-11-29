@@ -1,5 +1,5 @@
-using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
@@ -8,30 +8,30 @@ public class InventoryManager : MonoBehaviour
     public bool menuActived;
 
     [SerializeField]
-    public ItemSlot [] itemSlot;
+    private List<ItemSlot> itemSlots = new List<ItemSlot>(); // Dynamic list of item slots
+
+    public GameObject itemSlotPrefab; // Prefab for creating new slots
+    public Transform inventoryParent; // Parent object for arranging slots
 
     public ItemSO[] itemSOs;
 
-    // Start is called before the first frame update
     void Start()
     {
-
+        // Inventory starts empty, no predefined slots
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.I) && menuActived)
         {
-            //Time.timeScale = 1.0f;
+            Time.timeScale = 1.0f;
             InventoryMenu.SetActive(false);
             menuActived = false;
             Debug.Log("Menu not active");
         }
-
         else if (Input.GetKeyDown(KeyCode.I) && !menuActived)
         {
-            //Time.timeScale = 0.0f;
+            Time.timeScale = 0.0f;
             InventoryMenu.SetActive(true);
             menuActived = true;
             Debug.Log("Menu is active");
@@ -40,61 +40,70 @@ public class InventoryManager : MonoBehaviour
 
     public bool UseItem(string itemName)
     {
-        for (int i=0; i < itemSOs.Length; i++){
-            if (itemSOs[i].itemName == itemName)
+        foreach (var slot in itemSlots)
+        {
+            if (slot.itemName == itemName && slot.thisItemSelected)
             {
-               bool usable= itemSOs[i].UseItem();
-                return usable;
+                Debug.Log($"Using item: {itemName} from slot");
+                return slot.UseItem(); // Ensure this is called only once
             }
         }
         return false;
     }
 
-    //Adding an item to inventory
     public int AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
     {
-        for (int i = 0; i < itemSlot.Length; i++)
-        {
-            // If the slot already has the same item and isn't full, add to it
-            if (itemSlot[i].itemName == itemName && !itemSlot[i].isFull)
-            {
-                int leftOverItems = itemSlot[i].AddItem(itemName, quantity, itemSprite, itemDescription);
+        // Find the ItemSO for the item being added
+        ItemSO correspondingItemSO = itemSOs.FirstOrDefault(item => item.itemName == itemName);
 
-                // If there are leftovers, add them to the next slot recursively
-                if (leftOverItems > 0)
+        foreach (var slot in itemSlots)
+        {
+            if (slot.itemName == itemName && !slot.isFull)
+            {
+                int leftover = slot.AddItem(itemName, quantity, itemSprite, itemDescription);
+                if (leftover > 0)
                 {
-                    return AddItem(itemName, leftOverItems, itemSprite, itemDescription);
+                    return AddItem(itemName, leftover, itemSprite, itemDescription);
                 }
-                return 0; // Successfully added all items
+                return 0; // Successfully added
             }
         }
 
-        // If no matching slot was found, add to the next empty slot
-        for (int i = 0; i < itemSlot.Length; i++)
-        {
-            if (!itemSlot[i].isFull && itemSlot[i].quantity == 0)
-            {
-                int leftOverItems = itemSlot[i].AddItem(itemName, quantity, itemSprite, itemDescription);
-                if (leftOverItems > 0)
-                {
-                    return AddItem(itemName, leftOverItems, itemSprite, itemDescription);
-                }
-                return 0; // All items added successfully
-            }
-        }
+        // Create a new slot if no suitable slot exists
+        GameObject newSlot = Instantiate(itemSlotPrefab, inventoryParent);
+        ItemSlot slotScript = newSlot.GetComponent<ItemSlot>();
 
-        // If inventory is full and couldn't add items, return the remaining quantity
-        return quantity;
+        slotScript.itemName = itemName;
+        slotScript.itemSprite = itemSprite;
+        slotScript.itemDescription = itemDescription;
+
+        int leftovers = slotScript.AddItem(itemName, quantity, itemSprite, itemDescription);
+        itemSlots.Add(slotScript);
+
+        if (leftovers > 0)
+        {
+            return AddItem(itemName, leftovers, itemSprite, itemDescription);
+        }
+        return 0;
     }
 
+    public void RemoveSlot(ItemSlot slotToRemove)
+    {
+        // Remove the slot from the list
+        itemSlots.Remove(slotToRemove);
 
-    //Deselect the current slot
+        // Destroy the slot GameObject
+        Destroy(slotToRemove.gameObject);
+
+        Debug.Log("Slot removed from inventory.");
+    }
+
     public void DeselectAllSlots()
     {
-        for(int i=0;i<itemSlot.Length; i++)
+        foreach (var slot in itemSlots)
         {
-            itemSlot[i].selectedShader.SetActive(false);
-            itemSlot[i].thisItemSelected = false;
+            slot.selectedShader.SetActive(false);
+            slot.thisItemSelected = false;
         }
     }
 }

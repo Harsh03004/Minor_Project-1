@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a7d01e70d96314097177814b5db5f9, type: 3}
+  m_Name: ASSASSIN
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 21300000, guid: edd6e1053d31c444c993c0396e17d8c9, type: 3}
+  Name: Fireblast
+  Info: Make a huge fireblast, be cautiuos it will harm you as well. Press N on the
+    Keyboad to activate
+  AdditionalEffect: 
+  SkillPointToUnlock: 1
+  StatForAE: 5000
+  button: {fileID: 0}
+  SkillPrefab: {fileID: 361754553526910448, guid: 34476c63eff869a4a8d3fe6be85594ea, type: 3}

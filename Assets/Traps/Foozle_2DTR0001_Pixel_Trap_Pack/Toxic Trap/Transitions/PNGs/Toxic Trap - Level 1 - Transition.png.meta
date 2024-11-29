@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -160,7 +160,385 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_0
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 0
+        width: 42
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51524f4b8a2ff94881c937d8f8dacfb
+      internalID: 322397717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 4
+        width: 54
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba70cf642d9099479cf5cc0c542ad81
+      internalID: -1634526924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_2
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 64
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7c2da63b36ded4c97a19c0399c7f9e
+      internalID: 1316725946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_5
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 0
+        width: 72
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3aed72a91677149a25d73e102bfb73
+      internalID: 2052893756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_16
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 0
+        width: 78
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b456ab699e57d1a4786c1370eae6534e
+      internalID: 520522491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_17
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 0
+        width: 80
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b05f9f9f5976e4889a78f174f7a73d
+      internalID: -486786629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_22
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 0
+        width: 80
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8880cdb6e38b11149a239772b47409ed
+      internalID: -588421952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_23
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 0
+        width: 77
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b061e5044c75ec045916d3b3b490c3a6
+      internalID: 1190112217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_24
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 0
+        width: 22
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78a3af1f27e6c94f926eeb073fd2d8d
+      internalID: -1824852977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_25
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 0
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101626e559d59dd40ac810842e87249f
+      internalID: 370189146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_26
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 0
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dab47fc4144c149942c80fa93b7c6b
+      internalID: -403352124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_27
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 0
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce06c759dc68e444cb67d409ef7d28e3
+      internalID: 60503859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_28
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 0
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b96be6679f6ce945b50a6f3fa1e14e5
+      internalID: 94210073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_29
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 0
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6f8d9daadba334a9a211c0e1921d18
+      internalID: 1148866793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_30
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 0
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd0fcb8e70ca454695870d8a2131221
+      internalID: 1368515432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_31
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 0
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a8f1a26d12812419251509196c55fe
+      internalID: -585251358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_32
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 37
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc657a66083c2704284c6909060c439d
+      internalID: -1166911871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toxic Trap - Level 1 - Transition_35
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 0
+        width: 75
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77d986b2eee19b44af932c7b125eecc
+      internalID: -1182120606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -171,7 +549,44 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Toxic Trap - Level 1 - Transition_0: 322397717
+      Toxic Trap - Level 1 - Transition_1: -1634526924
+      Toxic Trap - Level 1 - Transition_10: 1953167517
+      Toxic Trap - Level 1 - Transition_11: -1652197937
+      Toxic Trap - Level 1 - Transition_12: 1229174834
+      Toxic Trap - Level 1 - Transition_13: 1411595303
+      Toxic Trap - Level 1 - Transition_14: -1072616967
+      Toxic Trap - Level 1 - Transition_15: -1453458677
+      Toxic Trap - Level 1 - Transition_16: 520522491
+      Toxic Trap - Level 1 - Transition_17: -486786629
+      Toxic Trap - Level 1 - Transition_18: -464544878
+      Toxic Trap - Level 1 - Transition_19: 1100357306
+      Toxic Trap - Level 1 - Transition_2: 1316725946
+      Toxic Trap - Level 1 - Transition_20: -1327064428
+      Toxic Trap - Level 1 - Transition_21: 277936961
+      Toxic Trap - Level 1 - Transition_22: -588421952
+      Toxic Trap - Level 1 - Transition_23: 1190112217
+      Toxic Trap - Level 1 - Transition_24: -1824852977
+      Toxic Trap - Level 1 - Transition_25: 370189146
+      Toxic Trap - Level 1 - Transition_26: -403352124
+      Toxic Trap - Level 1 - Transition_27: 60503859
+      Toxic Trap - Level 1 - Transition_28: 94210073
+      Toxic Trap - Level 1 - Transition_29: 1148866793
+      Toxic Trap - Level 1 - Transition_3: -859282998
+      Toxic Trap - Level 1 - Transition_30: 1368515432
+      Toxic Trap - Level 1 - Transition_31: -585251358
+      Toxic Trap - Level 1 - Transition_32: -1166911871
+      Toxic Trap - Level 1 - Transition_33: -73828580
+      Toxic Trap - Level 1 - Transition_34: -1142383462
+      Toxic Trap - Level 1 - Transition_35: -1182120606
+      Toxic Trap - Level 1 - Transition_36: 1533523918
+      Toxic Trap - Level 1 - Transition_4: 795084243
+      Toxic Trap - Level 1 - Transition_5: 2052893756
+      Toxic Trap - Level 1 - Transition_6: -1309015502
+      Toxic Trap - Level 1 - Transition_7: 151316704
+      Toxic Trap - Level 1 - Transition_8: -411875114
+      Toxic Trap - Level 1 - Transition_9: 812819941
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

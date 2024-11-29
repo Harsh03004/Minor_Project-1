@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -160,7 +160,595 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 44
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d3783f5c011ab4385404dd82d7cdd2
+      internalID: 1798486670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 43
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d542f5898e100d4baf775b467d7f67c
+      internalID: 1808892648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 0
+        width: 44
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c39ab566a910e47942b25fbb118543
+      internalID: -1980381368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_3
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 0
+        width: 44
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c806e3e92696545bd91324a8fb9165
+      internalID: 1412897942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_4
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 0
+        width: 45
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc18bcbf30150c341a8f415dbe86bb11
+      internalID: -1492866382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_5
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 0
+        width: 43
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70b6d28947b44a469ec4465077a59c7
+      internalID: 1774462136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_6
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 0
+        width: 38
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b277281a1209d2345955f064d5cd2a56
+      internalID: -548282214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_8
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 0
+        width: 40
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4abd52702cc9874485965a6079a1b5b
+      internalID: 1884850315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_9
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 0
+        width: 38
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f434a195415df4ca642abfe2d8f0ad
+      internalID: 1549970961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_10
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 0
+        width: 38
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5161ec6c213cd4c95fa96af7ef041c
+      internalID: 1913347348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_11
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 0
+        width: 38
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2eebd46292af74599d91d1e7c89b93
+      internalID: 127269765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_12
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 0
+        width: 39
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93bade806d430184fb7aa01b6ef7b4ba
+      internalID: -456641810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_13
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 0
+        width: 36
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf01d6094fec52429e86922d8e9a142
+      internalID: -1144207285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_14
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 0
+        width: 38
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388e808bf71c9014eade85297192134f
+      internalID: -1368279095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_16
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 0
+        width: 38
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cdbbbf4350cec4a982dccf53289fd6
+      internalID: 546475209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_17
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 0
+        width: 38
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532f6024ff871734f9551cced8460c8a
+      internalID: -919841832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_18
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 0
+        width: 38
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c100cd525606644bdf15483f6341b6
+      internalID: 2058817256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_19
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 0
+        width: 38
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c67efaf2abd0c34584b7fc4715b3ddc
+      internalID: -1273882631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_20
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 0
+        width: 39
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df99947f80ba3040acc0f500eba2c63
+      internalID: 407453613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_21
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 0
+        width: 36
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffac7c1c9a999b49801292e49503dee
+      internalID: 1177166221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_22
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 0
+        width: 38
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44d347a14a9bdf4a8bb639d42974976
+      internalID: 1850180148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_23
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 0
+        width: 39
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937478b590427ce47baa457c51b47225
+      internalID: 805984730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_25
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 0
+        width: 38
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babf9423c60da2345b49121db860d73a
+      internalID: 1255999649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_26
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 0
+        width: 38
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9172c25fa047ea64597d7e9b4b9899b8
+      internalID: -1283956694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_27
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 0
+        width: 38
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3779d9a28b09d6340932d4aedd17d6c1
+      internalID: -664103222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_28
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 0
+        width: 45
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa80a76b8960add4b8517d07ba3d286d
+      internalID: -330176242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_29
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 0
+        width: 43
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947edba6845503b4981b9d464cbf635b
+      internalID: 92642516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punch Trap - Level 2_30
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 0
+        width: 44
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bc95ae8ea12a84b8651cf9271fe644
+      internalID: 1754365547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -171,7 +759,38 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Punch Trap - Level 2_0: 1798486670
+      Punch Trap - Level 2_1: 1808892648
+      Punch Trap - Level 2_10: 1913347348
+      Punch Trap - Level 2_11: 127269765
+      Punch Trap - Level 2_12: -456641810
+      Punch Trap - Level 2_13: -1144207285
+      Punch Trap - Level 2_14: -1368279095
+      Punch Trap - Level 2_15: -1668405279
+      Punch Trap - Level 2_16: 546475209
+      Punch Trap - Level 2_17: -919841832
+      Punch Trap - Level 2_18: 2058817256
+      Punch Trap - Level 2_19: -1273882631
+      Punch Trap - Level 2_2: -1980381368
+      Punch Trap - Level 2_20: 407453613
+      Punch Trap - Level 2_21: 1177166221
+      Punch Trap - Level 2_22: 1850180148
+      Punch Trap - Level 2_23: 805984730
+      Punch Trap - Level 2_24: 1067006427
+      Punch Trap - Level 2_25: 1255999649
+      Punch Trap - Level 2_26: -1283956694
+      Punch Trap - Level 2_27: -664103222
+      Punch Trap - Level 2_28: -330176242
+      Punch Trap - Level 2_29: 92642516
+      Punch Trap - Level 2_3: 1412897942
+      Punch Trap - Level 2_30: 1754365547
+      Punch Trap - Level 2_4: -1492866382
+      Punch Trap - Level 2_5: 1774462136
+      Punch Trap - Level 2_6: -548282214
+      Punch Trap - Level 2_7: -471336282
+      Punch Trap - Level 2_8: 1884850315
+      Punch Trap - Level 2_9: 1549970961
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a7d01e70d96314097177814b5db5f9, type: 3}
+  m_Name: DARKNESS EFFINITY
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 21300000, guid: bbf816e6a271d5a4882133a0bf1b181f, type: 3}
+  Name: Fire Sword
+  Info: The ultimate attack,your enemy will die by one slash.Press X on your Keyboard
+    to unlock
+  AdditionalEffect: ABSORBTION WILL BE 5% FASTER
+  SkillPointToUnlock: 1
+  StatForAE: 5000
+  button: {fileID: 0}

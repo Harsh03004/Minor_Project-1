@@ -14,7 +14,7 @@ public class Enemy : MonoBehaviour
     public float pushBackForce = 5f;       // Force to push the player back when hit
     public float hitStunDuration = 1f;     // Duration the enemy is stunned when hit
 
-    private int currentHealth;              // Current health of the enemy
+    public int currentHealth;              // Current health of the enemy
     private float nextAttackTime = 0f;     // Timer for the next attack
     private Transform player;               // Reference to the player's transform
     private Playerhealth playerHealth;      // Reference to the player's health script
@@ -25,10 +25,34 @@ public class Enemy : MonoBehaviour
     private float stunEndTime = 0f;         // Time when the stun will end
     private bool isDead = false;            // Bool to track if the enemy is dead
 
+    private playerattack playerAttackScript;
+    public EnemyHealthBar enemyhealthbar;
+
     void Start()
     {
-        currentHealth = maxHealth;          // Initialize enemy health
-        animator = GetComponent<Animator>(); // Get the Animator component
+        // Initialize enemy health
+        currentHealth = maxHealth;
+        if(enemyhealthbar != null)
+        {
+            enemyhealthbar.SetMaxHealth(maxHealth);
+            enemyhealthbar.SetHealth(maxHealth);
+        }
+        animator = GetComponent<Animator>();
+
+        // Find the playerattack script in the scene
+        GameObject playerObject = GameObject.FindWithTag("Player");
+        if (playerObject != null)
+        {
+            playerAttackScript = playerObject.GetComponent<playerattack>();
+            if (playerAttackScript == null)
+            {
+                Debug.LogError("playerattack script not found on Player object!");
+            }
+        }
+        else
+        {
+            Debug.LogError("Player object not found!");
+        }
     }
 
     void Update()
@@ -67,7 +91,7 @@ public class Enemy : MonoBehaviour
                 StopMoving();
                 if (!isAttacking)
                 {
-                    Debug.Log("Player is within attack range. Attempting to attack.");
+                   // Debug.Log("Player is within attack range. Attempting to attack.");
                     isAttacking = true;
                     animator.SetBool("isAttacking", true); // Set attack animation to true
                 }
@@ -106,7 +130,7 @@ public class Enemy : MonoBehaviour
             }
             else
             {
-                Debug.Log("Player detected!");
+               // Debug.Log("Player detected!");
             }
         }
         else
@@ -114,7 +138,7 @@ public class Enemy : MonoBehaviour
             player = null;  // Reset player when out of detection range
             playerHealth = null;
             playerRb = null;
-            Debug.Log("Player not in range.");
+          //  Debug.Log("Player not in range.");
         }
     }
 
@@ -132,7 +156,7 @@ public class Enemy : MonoBehaviour
             // Apply the push-back force
             playerRb.AddForce(pushDirection * pushBackForce, ForceMode2D.Impulse);
 
-            Debug.Log("Player hit for " + attackDamage + " damage and pushed back.");
+           // Debug.Log("Player hit for " + attackDamage + " damage and pushed back.");
         }
         else
         {
@@ -159,14 +183,21 @@ public class Enemy : MonoBehaviour
     // Method to take damage when attacked by the player
     public void TakeDamage(int damage)
     {
-        if (isDead) return;  // Prevent taking damage if already dead
 
+        if (isDead) return;  // Prevent taking damage if already dead
         currentHealth -= damage;
+
+        if(enemyhealthbar != null)
+        {
+            enemyhealthbar.UpdateHealthBar();
+        }
+
         Debug.Log("Enemy took " + damage + " damage. Current health: " + currentHealth);
 
         // If health drops to 0 or below, trigger death
         if (currentHealth <= 0)
         {
+            
             Die();
         }
         else
@@ -175,7 +206,6 @@ public class Enemy : MonoBehaviour
             isStunned = true;
             animator.SetBool("isHit", true);  // Play hit animation
             stunEndTime = Time.time + hitStunDuration; // Set the time when stun ends
-
             Debug.Log("Enemy is stunned for " + hitStunDuration + " seconds.");
         }
     }
@@ -185,10 +215,16 @@ public class Enemy : MonoBehaviour
     {
         isDead = true;
         Debug.Log("Enemy died!");
-        
+
+        // Add experience to the player
+        if (playerAttackScript != null)
+        {
+            playerAttackScript.AddExperience(10); // Increase experience by 10
+        }
+
         // Trigger death animation
-        animator.SetBool("isDead", true);  // Play death animation
-        
+        animator.SetBool("isDead", true); // Play death animation
+
         // Stop enemy movement, attack, etc.
         StopMoving();
         isAttacking = false;
